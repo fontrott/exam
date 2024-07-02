@@ -1,0 +1,26 @@
+﻿<Page x:Class="food.Olivie"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:food"
+      mc:Ignorable="d" 
+      d:DesignHeight="434" d:DesignWidth="533"
+      Title="Olivie">
+
+    <Grid>
+        <Image Margin="287,8,16,239" Source="/1666496012_21-mykaleidoscope-ru-p-olive-bez-morkovi-instagram-27.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.399"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <TextBlock HorizontalAlignment="Left" Margin="28,25,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="328" Width="238" FontFamily="Tw Cen MT" FontSize="16"><Run Text="Оливье — это закусочный салат русской кухни из отварных корнеплодов, солёных огурцов, яиц с мясом или варёной колбасой в майонезной заправке."/><LineBreak/><Run/><LineBreak/><Run Text="По общепринятой версии, носит имя автора рецепта — французского шеф-повара Люсьена Оливье (1838–1883) и воспринимается в России как французское блюдо. За пределами ближнего зарубежья он в разных вариациях известен как «русский салат»."/><LineBreak/><Run/><LineBreak/><Run Text="Приготовление салата Оливье довольно простое, но время понадобиться минимум 1 час 50 минут."/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="312,208,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="328" Width="238" FontFamily="Tw Cen MT" FontSize="16"><Run Text="В среднем КБЖУ оливье на 100 г:"/><LineBreak/><Run Text="Белки — 5,1 г"/><LineBreak/><Run Text="Жиры — 16,5 г"/><LineBreak/><Run Text="Углеводы — 3,9"/><LineBreak/><Run Text="Калорийность: 187 ккал"/></TextBlock>
+
+    </Grid>
+</Page>

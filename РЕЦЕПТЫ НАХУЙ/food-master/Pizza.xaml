@@ -1,0 +1,17 @@
+﻿<Page x:Class="food.Pizza"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:food"
+      mc:Ignorable="d" 
+      d:DesignHeight="434" d:DesignWidth="533"
+      Title="Pizza">
+
+    <Grid>
+        <Image Margin="276,24,16,223" Source="/2796922021.jpg" Stretch="Fill"/>
+        <TextBlock HorizontalAlignment="Left" Margin="-1,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="386" Width="251" FontFamily="Tw Cen MT" FontSize="16"><Run Text="Пицца — традиционное итальянское блюдо в виде круглой дрожжевой лепёшки, выпекаемой с уложенной сверху начинкой из томатного соуса, сыра и зачастую других ингредиентов, таких как мясо, овощи, грибы и прочие продукты."/><LineBreak/><Run/><LineBreak/><Run/><LineBreak/><Run Text="Поставить в духовку разогретую до 220 градусов, как только тесто хорошо поднимется, уменьшить на 180 градусов, всего пицца выпекается примерно 25-30 минут."/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="327,231,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="121" Width="179" Text="Обычно пицца может содержать порядка 180–450 ккал." FontFamily="Tw Cen MT" FontSize="16"/>
+
+    </Grid>
+</Page>
